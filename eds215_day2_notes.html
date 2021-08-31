@@ -192,7 +192,29 @@ pre code {
 </div>
 <div id="loops-continued" class="section level3">
 <h3>Loops, continued</h3>
-<p><strong>anchor link</strong>: specifies a hyperlink inside of a document or html. (example: links that cut to certain parts of the class agenda html! or like the index bar that links to parts of knitted rmds)</p>
+<ul>
+<li><p><strong>anchor link</strong>: specifies a hyperlink inside of a document or html. (example: links that cut to certain parts of the class agenda html! or like the index bar that links to parts of knitted rmds)</p></li>
+<li><p><strong>{}</strong> wrap a variable in the terminal so you can attach things to the variable and have it recognized still</p></li>
+<li><p>for <code>chmod</code> (change mode)</p>
+<ul>
+<li><code>+x</code> means assign this permission</li>
+<li><code>-x</code> means take it away</li>
+<li>useful for running scripts and removing writing permissions from something you don’t want to delete</li>
+</ul></li>
+<li><p>Running <code>&gt;filnname</code> creates and empty file under the chosen name</p></li>
+<li><p>Running <code>&gt;&gt;filename</code> will create a new file (append operator)</p>
+<ul>
+<li>if that filename already exists, the append operator will add the files</li>
+</ul></li>
+<li><p><code>set -x</code> can be run at the top of a script to echo to output for you when you run it</p></li>
+<li><p><code>cut</code> pulls out parts of text</p></li>
+</ul>
+</div>
+<div id="cuts" class="section level3">
+<h3>Cuts</h3>
+<p><code>ls | cut -d &quot; &quot; -f 2 | -d _ -f 1</code></p>
+<p>After <code>-d</code> is the <strong>delimiter</strong>, which is where we are cutting the object.</p>
+<p>After <code>-f</code> is the <strong>field</strong> (1 or 2), which defines if we want to keep the first or the second half of the object.</p>
 </div>
 
 

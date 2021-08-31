@@ -47,3 +47,11 @@ knitr::opts_chunk$set(echo = TRUE)
 - `set -x` can be run at the top of a script to echo to output for you when you run it 
 
 - `cut` pulls out parts of text 
+
+### Cuts
+
+`ls | cut -d " " -f 2 | -d _ -f 1`
+
+After `-d` is the **delimiter**, which is where we are cutting the object. 
+
+After `-f` is the **field** (1 or 2), which defines if we want to keep the first or the second half of the object. 
