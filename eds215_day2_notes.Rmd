@@ -28,3 +28,22 @@ knitr::opts_chunk$set(echo = TRUE)
 - `ls -d eds2[2-46-k]`
 - `ls -d eds2[23456]`
 
+### Loops, continued
+
+- **anchor link**: specifies a hyperlink inside of a document or html. (example: links that cut to certain parts of the class agenda html! or like the index bar that links to parts of knitted rmds)
+
+- **{}** wrap a variable in the terminal so you can attach things to the variable and have it recognized still 
+
+- for `chmod` (change mode)
+  - `+x` means assign this permission
+  - `-x` means take it away 
+  - useful for running scripts and removing writing permissions from something you don't want to delete 
+  
+- Running `>filnname` creates and empty file under the chosen name 
+
+- Running `>>filename` will create a new file (append operator)
+  - if that filename already exists, the append operator will add the files 
+  
+- `set -x` can be run at the top of a script to echo to output for you when you run it 
+
+- `cut` pulls out parts of text 
