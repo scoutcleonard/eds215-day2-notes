@@ -1,0 +1,30 @@
+---
+title: "EDS 215 Day 2 Notes"
+author: "Scout Leonard"
+date: "8/31/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Helpful Folders for File Organization
+
+- **dist/**: a place to put downloads when you have finished adding new programs to your computer for a project
+- **temporary/** a place to put practice files of no importance that you've made for playing around or trying things out 
+
+### Make a buncha folders in bash
+
+`mkdir EDS2{12,22,14,15,23,16}`
+
+`echo mkdir EDS2{12,22,14,15,23,16}` returns what will be generated!
+
+`ls -d eds2??` calls my eds class folders 
+*Other ways to do this: 
+
+- `ls -d eds2[2345]`
+- `ls -d eds2[2-46]`
+- `ls -d eds2[2-46-k]`
+- `ls -d eds2[23456]`
+
